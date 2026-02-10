@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "600cff57-f431-4da8-8921-6fed64d881dc")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "12V_ASMS_SAFE"
+		(shape output)
+		(at 68.58 30.48 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 255 9 31 1)
+			)
+			(justify left)
+		)
+		(uuid "3b10aab3-b157-474d-9d83-abfed666e4b8")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 118.11 30.48 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4495d3b3-d78b-4520-8d8f-e4d843d7c73d")
+	)
+	(hierarchical_label "12V_IN_RAW"
+		(shape input)
+		(at 26.67 30.48 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 255 9 31 1)
+			)
+			(justify left)
+		)
+		(uuid "6329fc00-e7a1-4f5d-9174-c5002e468af5")
+	)
+)
