@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "477f05b9-0cc8-477c-9f2e-d2202d48db38")
+	(uuid "3afb2d9e-8a6f-4ffa-acd3-8a7dce72bedf")
 	(paper "A5")
 	(lib_symbols
 		(symbol "Regulator_Linear:L7805"
@@ -150,79 +150,47 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 60.96) (xy 133.35 60.96)
+			(xy 33.02 68.58) (xy 78.74 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a9821db-1c47-4ddb-a7f7-fcbc7b71ddfc")
+		(uuid "5431631f-24f3-4055-8ee4-da4188d6cd63")
 	)
 	(wire
 		(pts
-			(xy 26.67 66.04) (xy 26.67 60.96)
+			(xy 33.02 72.39) (xy 33.02 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8468788c-24f8-4864-bb3a-c8c0174559f5")
+		(uuid "a03f9fd2-318f-46c7-981f-964715194c94")
 	)
 	(wire
 		(pts
-			(xy 86.36 95.25) (xy 87.63 95.25)
+			(xy 93.98 68.58) (xy 151.13 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92de82c1-4bbc-4f53-8c75-ac50a45a46ef")
+		(uuid "a8ae5733-b220-40e5-97f8-84db3e006e4b")
 	)
 	(wire
 		(pts
-			(xy 86.36 68.58) (xy 86.36 95.25)
+			(xy 86.36 76.2) (xy 86.36 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8e0da72-df33-4c3a-949d-00d622a0750c")
-	)
-	(wire
-		(pts
-			(xy 27.94 66.04) (xy 26.67 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d929cf19-36b2-46f5-885c-6599d74a1455")
-	)
-	(wire
-		(pts
-			(xy 26.67 60.96) (xy 78.74 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0a44ae2-fe7f-4b6d-994e-1ecedb83a903")
-	)
-	(hierarchical_label "12V_ASMS_SAFE"
-		(shape output)
-		(at 27.94 66.04 0)
-		(effects
-			(font
-				(size 3 3)
-				(color 255 9 31 1)
-			)
-			(justify left)
-		)
-		(uuid "6d018aae-e524-4ea9-a2d4-cfbb4c6ef8bf")
+		(uuid "ed286bd0-f9fb-4b31-83d3-22cc6d8a9b31")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 87.63 95.25 0)
+		(at 86.36 95.25 0)
 		(effects
 			(font
 				(size 3 3)
@@ -230,11 +198,11 @@
 			)
 			(justify left)
 		)
-		(uuid "b97f4561-5ce8-43c6-8a59-91cbe924b8f7")
+		(uuid "2af655ad-d7f0-4f60-9313-39c1aab3a90f")
 	)
-	(hierarchical_label "24V_ASMS_SAFE"
-		(shape input)
-		(at 133.35 60.96 0)
+	(hierarchical_label "5V_ASMS_SAFE"
+		(shape output)
+		(at 151.13 68.58 0)
 		(effects
 			(font
 				(size 3 3)
@@ -242,20 +210,32 @@
 			)
 			(justify left)
 		)
-		(uuid "e2fbf699-7e60-49ab-aebc-ceafe261d14a")
+		(uuid "82fdbd7f-b9c4-4e83-9dbc-7b7dd2220ef6")
+	)
+	(hierarchical_label "12V_ASMS_SAFE"
+		(shape input)
+		(at 33.02 72.39 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 255 9 31 1)
+			)
+			(justify left)
+		)
+		(uuid "92f4b9b0-cd22-429b-bc3f-23c6ee5325f2")
 	)
 	(symbol
 		(lib_id "Regulator_Linear:L7805")
-		(at 86.36 60.96 0)
+		(at 86.36 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "84a1ebad-cc35-4157-9e3b-145f9df5585e")
-		(property "Reference" "U5"
-			(at 86.36 54.61 0)
+		(uuid "ef2748b1-6427-4086-a044-4c8463120754")
+		(property "Reference" "U4"
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,7 +243,7 @@
 			)
 		)
 		(property "Value" "L7805"
-			(at 86.36 57.15 0)
+			(at 86.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.995 64.77 0)
+			(at 86.995 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +262,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 86.36 62.23 0)
+			(at 86.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,7 +271,7 @@
 			)
 		)
 		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-			(at 86.36 60.96 0)
+			(at 86.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,18 +280,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "804b08f4-c3fa-4160-a876-f646f726f918")
+			(uuid "1cb9a254-230a-4729-8253-e4557a45e419")
 		)
 		(pin "1"
-			(uuid "0049c3a7-5c3e-4f7b-94d1-8acacdda1f4c")
+			(uuid "cb94096d-ec89-433e-9537-a6008d335500")
 		)
 		(pin "2"
-			(uuid "e235fac0-0319-4c23-a58e-7057832dc5cd")
+			(uuid "fe6b02f2-9cfa-42e2-be05-ddc43fdbcf88")
 		)
 		(instances
-			(project "ads_circuit_schematic"
-				(path "/71fa6abf-14fe-4383-b55d-b9c0203d051b/6b6cd35a-2bfb-49a2-8edb-a39cb5d21f2f"
-					(reference "U5")
+			(project ""
+				(path "/71fa6abf-14fe-4383-b55d-b9c0203d051b/5e4e8b56-65cb-49b7-9084-2612933c5688"
+					(reference "U4")
 					(unit 1)
 				)
 			)

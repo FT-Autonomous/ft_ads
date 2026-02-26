@@ -17,6 +17,18 @@
 		)
 		(uuid "9ecfe54b-a83c-4f12-8fc2-cbed89fd0e74")
 	)
+	(hierarchical_label "5V_ASMS_SAFE"
+		(shape input)
+		(at 139.7 31.75 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ab20e41b-233a-4dca-8d69-311abbb6e596")
+	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 100.33 31.75 0)

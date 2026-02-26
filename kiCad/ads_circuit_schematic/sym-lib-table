@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/ads_circuit_schematic-backups/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "LinearActuatorModuleLibrary")(type "KiCad")(uri "${KIPRJMOD}/ads_circuit_schematic-backups/LinearActuatorModuleLibrary.kicad_sym")(options "")(descr ""))
+)

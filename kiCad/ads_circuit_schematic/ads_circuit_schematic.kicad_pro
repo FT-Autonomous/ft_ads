@@ -444,6 +444,10 @@
     [
       "6b6cd35a-2bfb-49a2-8edb-a39cb5d21f2f",
       "12-24V_STEP_UP"
+    ],
+    [
+      "5e4e8b56-65cb-49b7-9084-2612933c5688",
+      "5V_STEP_DOWN"
     ]
   ],
   "text_variables": {}
