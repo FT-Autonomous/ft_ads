@@ -1,0 +1,11 @@
+# KiCad backups
+*-backups/
+*.bak
+_autosave-*.kicad_sch
+*.zip
+
+# Local project settings
+*.kicad_prl
+
+# Cache
+*.cache
