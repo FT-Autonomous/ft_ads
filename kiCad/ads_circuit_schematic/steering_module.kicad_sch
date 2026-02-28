@@ -4,7 +4,218 @@
 	(generator_version "9.0")
 	(uuid "b73b16db-514b-4a54-9a01-7bc6a1732719")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "steering_motor:steering_motor"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "steering_motor_0_1"
+				(rectangle
+					(start -11.938 7.366)
+					(end 11.938 -7.366)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 0.51)
+					)
+				)
+			)
+			(symbol "steering_motor_1_1"
+				(pin input line
+					(at -11.43 5.08 180)
+					(length 5.08)
+					(name "U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 180)
+					(length 5.08)
+					(name "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -5.08 180)
+					(length 5.08)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 270)
+					(length 1.905)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -7.62 270)
+					(length 1.905)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 5.08 0)
+					(length 5.08)
+					(name "HALL_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 0 0)
+					(length 5.08)
+					(name "HALL_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -5.08 0)
+					(length 5.08)
+					(name "HALL_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(hierarchical_label "24V_STEP_ASMS_SAFE"
 		(shape input)
 		(at 30.48 27.94 0)
@@ -40,5 +251,91 @@
 			(justify left)
 		)
 		(uuid "fdf258f5-fc04-4d5c-80b7-7895c9cf5dd4")
+	)
+	(symbol
+		(lib_id "steering_motor:steering_motor")
+		(at 137.16 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c8364b9-db51-4cb9-8515-caa2820000a8")
+		(property "Reference" "U16"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8766ff67-2139-48e0-9585-2c80f3ea4401")
+		)
+		(pin ""
+			(uuid "ed419d8f-e41f-4450-9d97-3bfbaaddb5e7")
+		)
+		(pin ""
+			(uuid "ccff6c45-0dc4-4e93-9f81-f64ccccc3312")
+		)
+		(pin ""
+			(uuid "8435289b-f568-40b2-b866-12a9f70d626b")
+		)
+		(pin ""
+			(uuid "0c8ea40e-bca2-4fba-b0af-e0a7319d3e12")
+		)
+		(pin ""
+			(uuid "70e6a9ea-0e8e-4d6e-969e-0fc102cc8480")
+		)
+		(pin ""
+			(uuid "2a1a0cb0-8593-4e10-9187-c34306983462")
+		)
+		(pin ""
+			(uuid "7d3ab68c-9c59-44c9-95c6-cbf5858dc736")
+		)
+		(instances
+			(project ""
+				(path "/71fa6abf-14fe-4383-b55d-b9c0203d051b/cd0e913f-1e61-4dd3-b2d8-0b677d7a4880"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
