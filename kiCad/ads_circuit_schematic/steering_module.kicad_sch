@@ -5,9 +5,9 @@
 	(uuid "b73b16db-514b-4a54-9a01-7bc6a1732719")
 	(paper "A4")
 	(lib_symbols
-		(symbol "steering_motor:steering_motor"
+		(symbol "steering_motor:motor_driver"
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
 				(at 0 0 0)
@@ -17,12 +17,109 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "Motor Driver"
+				(at 6.096 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "motor_driver_0_1"
+				(rectangle
+					(start -18.415 11.43)
+					(end 17.78 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 55 147 194 0.6)
+					)
+				)
+				(rectangle
+					(start -12.065 8.89)
+					(end -12.065 8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "motor_driver_1_1"
+				(text_box "The motor driver hasn't arrived yet but this is the link to where we get it from\n\nhttps://www.nanotec.com/eu/en/products/2143-n5-2-4-motor-controller-for-modbus-tcp"
+					(at -64.135 41.91 0)
+					(size 12.7 -13.335)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left top)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "steering_motor:steering_motor"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "m_Driver"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.1588)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -254,32 +351,33 @@
 	)
 	(symbol
 		(lib_id "steering_motor:steering_motor")
-		(at 137.16 80.01 0)
+		(at 135.89 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c8364b9-db51-4cb9-8515-caa2820000a8")
-		(property "Reference" "U16"
-			(at 137.16 91.44 0)
+		(property "Reference" "Steering_Motor"
+			(at 136.144 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 			)
 		)
 		(property "Value" "~"
-			(at 137.16 93.98 0)
+			(at 135.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 80.01 0)
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 80.01 0)
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 80.01 0)
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,6 +426,69 @@
 		)
 		(pin ""
 			(uuid "7d3ab68c-9c59-44c9-95c6-cbf5858dc736")
+		)
+		(instances
+			(project ""
+				(path "/71fa6abf-14fe-4383-b55d-b9c0203d051b/cd0e913f-1e61-4dd3-b2d8-0b677d7a4880"
+					(reference "Steering_Motor")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "steering_motor:motor_driver")
+		(at 88.9 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3e1481e-e8f6-40b2-9d07-193fdb4492e4")
+		(property "Reference" "U16"
+			(at 107.95 60.0074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor Driver"
+			(at 89.408 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(instances
 			(project ""

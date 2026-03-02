@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "Motor Driver"
+			(at 6.096 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,6 +47,32 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(symbol "motor_driver_0_1"
+			(rectangle
+				(start -18.415 11.43)
+				(end 17.78 -6.985)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 55 147 194 0.6)
+				)
+			)
+			(rectangle
+				(start -12.065 8.89)
+				(end -12.065 8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 		)
 		(symbol "motor_driver_1_1"
