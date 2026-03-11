@@ -12,4 +12,4 @@ all the CAD files as related to the mounting of sensors and compute devices - ma
 scripts and diagrams that describe how data goes from the sensor stack, down to the microcontrollers, and back up - managed by [J-Carrig](https://github.com/J-Carrig)
 
 ### kiCad
-all electrical/wiring diagrams in KiCad - managed by @gitdamp[gitdamp](https://github.com/gitdamp) and [J-Carrig](https://github.com/J-Carrig)
+all electrical/wiring diagrams in KiCad - managed by [gitdamp](https://github.com/gitdamp) and [J-Carrig](https://github.com/J-Carrig)
