@@ -1611,7 +1611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1051b727-2ab2-4fc7-aea6-df6b54c0afc9")
-		(property "Reference" "U?"
+		(property "Reference" "U7"
 			(at 187.9601 88.9 0)
 			(effects
 				(font
@@ -1697,7 +1697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa1cc35-4213-437d-8a02-25d5044b0b94")
-		(property "Reference" "U?"
+		(property "Reference" "U13"
 			(at 182.88 107.95 0)
 			(effects
 				(font
@@ -1785,7 +1785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4838fc05-d047-45b9-95c6-7d07e7b0fe00")
-		(property "Reference" "U?"
+		(property "Reference" "U10"
 			(at 121.92 52.07 0)
 			(effects
 				(font
@@ -1893,7 +1893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6176d0d-e28c-47db-8c25-d27c88df95be")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 46.99 58.42 0)
 			(effects
 				(font
@@ -2054,6 +2054,20 @@
 			(uuid "c52c8568-9ac5-407f-9413-3ad765f89130")
 		)
 		(instances
+			(project "ads_circuit_schematic"
+				(path "/71fa6abf-14fe-4383-b55d-b9c0203d051b/6ebb9076-ee1d-476e-8ec6-663f05d44008"
+					(reference "U?")
+					(unit 1)
+				)
+				(path "/71fa6abf-14fe-4383-b55d-b9c0203d051b/d3b3d7c6-59fe-4ce9-9e2a-b0d36ac8ff03"
+					(reference "U?")
+					(unit 1)
+				)
+				(path "/71fa6abf-14fe-4383-b55d-b9c0203d051b/f891a5f4-e8a4-494d-93e7-aeaac863b432"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c85e4fec-a7c3-4bb6-ab70-7c34bdc77984"
 					(reference "U1")
