@@ -4,7 +4,217 @@
 	(generator_version "9.0")
 	(uuid "2452a5b6-d5c8-4783-b9fd-180986d32117")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "steering_motor:breaking_motor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Breaking motor"
+				(at -10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "breaking_motor_1_1"
+				(rectangle
+					(start -19.05 12.7)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 132 132 132 0.6)
+					)
+				)
+				(pin input line
+					(at -19.05 8.89 180)
+					(length 2.54)
+					(name "5v_RED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.05 3.81 180)
+					(length 2.54)
+					(name "GND_BLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 12.7 90)
+					(length 2.54)
+					(name "HallA_YEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 0 270)
+					(length 2.54)
+					(name "PhaseU_ORG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 12.7 90)
+					(length 2.54)
+					(name "HallB_WHT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 0 270)
+					(length 2.54)
+					(name "PhaseV_GRN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 12.7 90)
+					(length 2.54)
+					(name "HallC_BLU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 0 270)
+					(length 2.54)
+					(name "PhaseW_BRW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(hierarchical_label "24V_STEP_ASMS_SAFE"
 		(shape input)
 		(at 35.56 31.75 0)
@@ -40,5 +250,93 @@
 			(justify left)
 		)
 		(uuid "b0887b3e-0a14-4a73-ab4f-489b95befc50")
+	)
+	(symbol
+		(lib_id "steering_motor:breaking_motor")
+		(at 140.97 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7606edc8-8c1b-4225-b374-f93e9e58027d")
+		(property "Reference" "U1"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Breaking motor"
+			(at 118.11 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "edafebbb-b506-4a0c-9d53-622832d822a5")
+		)
+		(pin ""
+			(uuid "508449ad-e85c-4f72-9f3f-1bc8f161970d")
+		)
+		(pin ""
+			(uuid "422f30d1-e15f-4e2d-a575-13b77d6db849")
+		)
+		(pin ""
+			(uuid "33d6ec0a-28c2-4879-a46c-e3e80e25da5a")
+		)
+		(pin ""
+			(uuid "d764b687-fca2-4708-b40f-877e65182e0c")
+		)
+		(pin ""
+			(uuid "ba5dc399-d435-4b31-a770-9c3f9bcb296d")
+		)
+		(pin ""
+			(uuid "fc04f41a-c482-46c0-9161-0ce2adb5b61b")
+		)
+		(pin ""
+			(uuid "12fb8846-0b33-4c39-9498-fdc66c35e2b7")
+		)
+		(instances
+			(project ""
+				(path "/71fa6abf-14fe-4383-b55d-b9c0203d051b/5cc4a821-9cfe-4f60-9e3a-3af94c154a2b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
