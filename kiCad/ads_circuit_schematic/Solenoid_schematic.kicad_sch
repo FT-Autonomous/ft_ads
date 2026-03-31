@@ -1,0 +1,217 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5af822c2-50c2-4921-bea3-6645b6f4d3c7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Solenoid_v2:Solenoid_v2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Solenoid_v2_0_1"
+				(rectangle
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Solenoid_v2_1_1"
+				(pin power_in line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "+24_V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "PE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "SOLENOID VALVE VUVS"
+		(exclude_from_sim no)
+		(at 39.116 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.festo.com/ie/en/p/solenoid-valve-id_VUVS/?q=Festo%20VUVS-L20-M32C-MD-G18-F7~:festoSortOrderScored~:allCategories~:pim115")
+		)
+		(uuid "cf8555c0-9586-4baa-8225-645bf80d3b90")
+	)
+	(symbol
+		(lib_id "Solenoid_v2:Solenoid_v2")
+		(at 135.7783 97.4641 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5cd3de6-57fc-4e0e-88be-1b20398df85d")
+		(property "Reference" "U1"
+			(at 135.7783 97.4641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 135.7783 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.7783 97.4641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.7783 97.4641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.7783 97.4641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd7afd4d-50a5-4924-b13c-03660fd69a42")
+		)
+		(pin "3"
+			(uuid "111002ac-3793-4d01-81ad-a6925f101c66")
+		)
+		(pin "1"
+			(uuid "45635a32-9f54-4a52-8556-0607a04678fc")
+		)
+		(instances
+			(project ""
+				(path "/5af822c2-50c2-4921-bea3-6645b6f4d3c7"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
