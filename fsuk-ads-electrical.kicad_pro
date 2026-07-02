@@ -342,7 +342,7 @@
         "name": "MOTOR_24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
-        "schematic_color": "rgb(255, 255, 0)",
+        "schematic_color": "rgb(194, 194, 0)",
         "wire_width": 8
       },
       {
@@ -374,7 +374,7 @@
       },
       {
         "netclass": "MOTOR_24V",
-        "pattern": "*+24v*"
+        "pattern": "*+24V*"
       },
       {
         "netclass": "ACT_10A",
@@ -382,7 +382,7 @@
       },
       {
         "netclass": "COMPUTE_12V_SW",
-        "pattern": "*+12V_COMPUTE*"
+        "pattern": "*+12V_COMP*"
       },
       {
         "netclass": "COMPUTE_5V_5A",
