@@ -2,6 +2,381 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+	(symbol "+12V_ACT_L1_FSD"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_ACT_L1_FSD"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+12V_ACT_L1_FSD_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+12V_ACT_L1_FSD_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "+12V_COMPUTE_SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "+12V_ACT_L2_FSD"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_ACT_L2_FSD"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+12V_ACT_L2_FSD_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+12V_ACT_L2_FSD_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "+12V_COMPUTE_SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "+12V_ACT_L3_FSD"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_ACT_L3_FSD"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+12V_ACT_L3_FSD_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+12V_ACT_L3_FSD_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "+12V_COMPUTE_SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "+12V_BATT"
 		(power)
 		(pin_numbers
@@ -252,7 +627,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "+12V_FUSED"
+	(symbol "+12V_FSD"
 		(power)
 		(pin_numbers
 			(hide yes)
@@ -273,7 +648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V_FUSED"
+		(property "Value" "+12V_FSD"
 			(at 0 3.556 0)
 			(effects
 				(font
@@ -317,7 +692,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "+12V_FUSED_0_1"
+		(symbol "+12V_FSD_0_1"
 			(polyline
 				(pts
 					(xy -0.762 1.27) (xy 0 2.54)
@@ -355,11 +730,136 @@
 				)
 			)
 		)
-		(symbol "+12V_FUSED_1_1"
+		(symbol "+12V_FSD_1_1"
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
 				(name "+12V_FUSED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "+12V_JET+LID_FSD"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_JET+LID_FSD"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+12V_JET+LID_FSD_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+12V_JET+LID_FSD_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "+12V_JETSON+LID_FUSED"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -606,6 +1106,256 @@
 			)
 		)
 		(symbol "+5V_COMPUTE_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "+5V_COMPUTE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "+5V_ETH_FSD"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_ETH_FSD"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+5V_ETH_FSD_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+5V_ETH_FSD_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "+5V_COMPUTE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "+5V_ROCK_FSD"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_ROCK_FSD"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+5V_ROCK_FSD_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+5V_ROCK_FSD_1_1"
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
@@ -1487,8 +2237,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 9.652 0)
+		(property "Reference" "V"
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,8 +2282,8 @@
 		)
 		(symbol "Voltage_Converter_1_1"
 			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -7.62)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1543,7 +2293,7 @@
 				)
 			)
 			(text "DC-DC"
-				(at 0 3.556 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1551,7 +2301,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 0 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "VIN+"
 					(effects
@@ -1569,7 +2319,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -10.16 90)
+				(at -5.08 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1587,7 +2337,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -10.16 90)
+				(at 5.08 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1605,7 +2355,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 0 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "VOUT+"
 					(effects

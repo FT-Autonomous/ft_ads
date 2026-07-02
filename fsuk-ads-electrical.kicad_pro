@@ -382,7 +382,7 @@
       },
       {
         "netclass": "COMPUTE_12V_SW",
-        "pattern": "*+12V_COMPUTE"
+        "pattern": "*+12V_COMPUTE*"
       },
       {
         "netclass": "COMPUTE_5V_5A",
@@ -423,6 +423,10 @@
       {
         "netclass": "TRUNK_120A",
         "pattern": "*+12V_FUSED*"
+      },
+      {
+        "netclass": "COMPUTE_12V_SW",
+        "pattern": "+12V_JETSON*"
       }
     ]
   },
