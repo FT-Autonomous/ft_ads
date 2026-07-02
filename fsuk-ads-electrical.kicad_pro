@@ -277,7 +277,7 @@
         "line_style": 0,
         "name": "ACT_10A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(255, 170, 45)",
         "wire_width": 8
       },
@@ -285,7 +285,7 @@
         "line_style": 0,
         "name": "COIL_PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 4
       },
@@ -293,7 +293,7 @@
         "line_style": 0,
         "name": "COMMS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 4
       },
@@ -301,7 +301,7 @@
         "line_style": 0,
         "name": "COMPUTE_12V_SW",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(39, 144, 219)",
         "wire_width": 6
       },
@@ -309,7 +309,7 @@
         "line_style": 0,
         "name": "COMPUTE_5V_5A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 6
       },
@@ -317,15 +317,23 @@
         "line_style": 0,
         "name": "CONV_IN_24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(204, 145, 16)",
         "wire_width": 10
       },
       {
         "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "line_style": 0,
         "name": "LOGIC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(194, 194, 194)",
         "wire_width": 4
       },
@@ -333,7 +341,7 @@
         "line_style": 0,
         "name": "MOTOR_24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 255, 0)",
         "wire_width": 8
       },
@@ -341,7 +349,7 @@
         "line_style": 0,
         "name": "TRUNK_120A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(194, 0, 0)",
         "wire_width": 12
       }
@@ -403,6 +411,18 @@
       {
         "netclass": "COIL_PWR",
         "pattern": "*COIL_*"
+      },
+      {
+        "netclass": "TRUNK_120A",
+        "pattern": "*+12V_BAT*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "*GND*"
+      },
+      {
+        "netclass": "TRUNK_120A",
+        "pattern": "*+12V_FUSED*"
       }
     ]
   },
@@ -533,6 +553,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d6aff74e-3318-4fd0-8dc7-ec5368c0dfa8",
+      "Root"
+    ],
+    [
+      "b502e227-70b4-4105-b13f-6ec8a9fa398b",
+      "ADS_Power_Circuit"
+    ],
+    [
+      "403a40eb-9bd0-45ff-b88a-3de3b2403865",
+      "Compute_Sensors"
+    ],
+    [
+      "7a89ddb3-8717-4043-a3b1-381ec6a0070f",
+      "Actuator_Drive"
+    ],
+    [
+      "0f4bd32b-5426-4661-b6be-748aeb0a5ff8",
+      "SDC"
+    ]
+  ],
   "text_variables": {}
 }
