@@ -422,11 +422,11 @@
       },
       {
         "netclass": "TRUNK_120A",
-        "pattern": "*+12V_FUSED*"
+        "pattern": "*+12V_FSD*"
       },
       {
         "netclass": "COMPUTE_12V_SW",
-        "pattern": "+12V_JETSON*"
+        "pattern": "+12V_JET*"
       }
     ]
   },
