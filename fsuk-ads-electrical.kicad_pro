@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -277,23 +277,39 @@
         "line_style": 0,
         "name": "ACT_10A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 11,
         "schematic_color": "rgb(255, 170, 45)",
         "wire_width": 8
       },
       {
         "line_style": 0,
+        "name": "ASMS_SUPPLY",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 194, 194)",
+        "wire_width": 6
+      },
+      {
+        "line_style": 0,
         "name": "COIL_PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 4
+      },
+      {
+        "line_style": 0,
+        "name": "COIL_PWR_24V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(132, 0, 132)",
         "wire_width": 4
       },
       {
         "line_style": 0,
         "name": "COMMS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 7,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 4
       },
@@ -301,7 +317,7 @@
         "line_style": 0,
         "name": "COMPUTE_12V_SW",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 9,
         "schematic_color": "rgb(39, 144, 219)",
         "wire_width": 6
       },
@@ -309,7 +325,7 @@
         "line_style": 0,
         "name": "COMPUTE_5V_5A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 6
       },
@@ -317,7 +333,7 @@
         "line_style": 0,
         "name": "CONV_IN_24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 12,
         "schematic_color": "rgb(204, 145, 16)",
         "wire_width": 10
       },
@@ -325,7 +341,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 6
       },
@@ -333,7 +349,7 @@
         "line_style": 0,
         "name": "LOGIC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 8,
         "schematic_color": "rgb(194, 194, 194)",
         "wire_width": 4
       },
@@ -341,15 +357,31 @@
         "line_style": 0,
         "name": "MOTOR_24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 10,
         "schematic_color": "rgb(194, 194, 0)",
         "wire_width": 8
       },
       {
         "line_style": 0,
+        "name": "SDC_BYPASS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(221, 133, 0)",
+        "wire_width": 8
+      },
+      {
+        "line_style": 0,
+        "name": "SDC_SPINE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 10
+      },
+      {
+        "line_style": 0,
         "name": "TRUNK_120A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 13,
         "schematic_color": "rgb(194, 0, 0)",
         "wire_width": 12
       }
@@ -409,8 +441,8 @@
         "pattern": "*CAN_*"
       },
       {
-        "netclass": "COIL_PWR",
-        "pattern": "*COIL_*"
+        "netclass": "COIL_PWR_24V",
+        "pattern": "*COIL_24V_PWR*"
       },
       {
         "netclass": "TRUNK_120A",
@@ -426,7 +458,15 @@
       },
       {
         "netclass": "COMPUTE_12V_SW",
-        "pattern": "+12V_JET*"
+        "pattern": "*+12V_JET*"
+      },
+      {
+        "netclass": "SDC_SPINE",
+        "pattern": "*SDC_*"
+      },
+      {
+        "netclass": "COIL_PWR",
+        "pattern": "*COIL_*"
       }
     ]
   },
