@@ -2498,6 +2498,16 @@
 		)
 		(uuid "575b6e00-6866-47e6-9257-99d6e36130a8")
 	)
+	(text "USB-C connection\nvia breakout.\n"
+		(exclude_from_sim no)
+		(at 99.822 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b58c0b6-5b19-4b9e-8b95-fa491a6d44f9")
+	)
 	(text "Compute gate (T11.3.1)"
 		(exclude_from_sim no)
 		(at 99.314 78.74 0)
@@ -2537,6 +2547,16 @@
 			)
 		)
 		(uuid "8f5ece5a-d069-4313-9c58-d72ba4d07837")
+	)
+	(text "Barrel Jack\nfor both.\n"
+		(exclude_from_sim no)
+		(at 61.722 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "adc71aec-dec2-4975-b121-9a18288eb4c5")
 	)
 	(text "SW80 main contact."
 		(exclude_from_sim no)

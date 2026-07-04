@@ -1,0 +1,3 @@
+Hello, ADS person. This is the KiCad folder where we make our circuit schematics. You may be wondering why there are two different folders, one called "ads_circuit_schematic" and one called "fsuk-ads-electrical". That is a good question. Both of them were made by me (Jack), both of them are attempting to do the same thing (documenting and designing the ADS circuit schematic), but one of them is really not great and isn't very clear. The fsuk one is the newer and more complete one. There will be another file explaining each of the sections in that schematic and what they are for. Thank you for reading.
+
+If you have any questions, please email jbradsha@tcd.ie or message me on Slack (Jack Bradshaw) :) 

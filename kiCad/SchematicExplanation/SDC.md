@@ -1,0 +1,15 @@
+The Shutdown Circuit's (SDC) main job is to, in the event of something going wrong, shut down the cars tractive system (TS). Essentially it must turn the car off. Since it is based off the old IC circuit, it also serves as the electronic control (ECU) for the car and so any electrical components can be shutoff by turning the LVMS isolator to the off position.
+
+This is acheived through a series of switches, buttons and relays, pretty much all in series, so that if anything is tripped, power ceases to energise certain relays that cause the engine etc to shut off. This is the spine of the circuit. There are many switches in here, look at the rules for things like BOTS, BSPD, the shutdown buttons and the inertia switch. There are some additions strictly added for ADS that I will examine further here. 
+
+1. The Remote Emergency Stop:
+The RES is essentially a transmitter and receiver combination. The receiver energises a normally open relay contact when receiving a signal and this causes the spine to stay powered and so the car keeps running. If, for a plethora of reasons, the signal stops being transmitted (too far away, obstruction, purposeful cessation etc.) the RES opens the spine. T14.3.5 states that the RES may be bypassed when in manual driving mode (it is only there to stop the autonomous car) and so a bypass exists through use of a forcibly guided, normally closed relay contact, with its coil energised by the ASMS. If the ASMS is switched on, the RES is no longer bypassed and therefore can cause the car to stop. A secondary role of the RES is that it must be the thing that sends the 'Go' signal to the car in order to make it start driving in Autonomous mode and this can be done over CAN or some weird latching K2 thingy in its datasheet (not a fan of the second option tbh).
+
+2. The Emergency Braking System (EBS):
+The EBS is part of the Autonomous System Brake (ASB) and if the SDC spine is tripped, it must activate within 200 ms, braking with a decelleration of at least 10 m s^-2. To accomplish this, the coil that energises the normally open relay that supplies power to the EBS will be in paralell to the relays that disable the tractive system, so that they both happen due to the same event. At the time of writing this document, this has not been designed but totally should be.
+
+3. The 12->24V Converter:
+This converter is after the ASMS and is just there because both the SISF2 (forcibly guided relay that allows the bypass of the RES) and the SW80 coils both require 24 volts. If this ever changes then it can be removed of course.
+
+4. The Autonomous System Relay in series with the RES:
+This is a relay that is controlled by the computer (Jetson). As per the rules, it is allowed to close this normally open contact if it thinks everything is all good (check rules for actual wording). The power supply for the coil that implements this must then be controlled by the computer (perhaps MOSFET controlled by ESP32 receiving heartbeat from watchdog routine) but at the time of writing this document has not been implemented. Ask Joel Jojan (goat) for updates on this if he is still with us.  
