@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FSUK_ADS")(type "KiCad")(uri "${KIPRJMOD}/FSUK_ADS.kicad_sym")(options "")(descr ""))
+)

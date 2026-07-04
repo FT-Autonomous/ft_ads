@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d6aff74e-3318-4fd0-8dc7-ec5368c0dfa8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.6 25.4)
+		(size 101.6 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 194 0.2000)
+		)
+		(uuid "0f4bd32b-5426-4661-b6be-748aeb0a5ff8")
+		(property "Sheetname" "SDC"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDC.kicad_sch"
+			(at 101.6 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fsuk-ads-electrical"
+				(path "/d6aff74e-3318-4fd0-8dc7-ec5368c0dfa8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 96.52)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 0 0.2000)
+		)
+		(uuid "403a40eb-9bd0-45ff-b88a-3de3b2403865")
+		(property "Sheetname" "Compute_Sensors"
+			(at 111.76 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "compute_sensors.kicad_sch"
+			(at 111.76 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fsuk-ads-electrical"
+				(path "/d6aff74e-3318-4fd0-8dc7-ec5368c0dfa8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 128.27)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 0 0.2000)
+		)
+		(uuid "7a89ddb3-8717-4043-a3b1-381ec6a0070f")
+		(property "Sheetname" "Actuator_Drive"
+			(at 111.76 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "actuator_drive.kicad_sch"
+			(at 111.76 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fsuk-ads-electrical"
+				(path "/d6aff74e-3318-4fd0-8dc7-ec5368c0dfa8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 101.6)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.2100)
+		)
+		(uuid "b502e227-70b4-4105-b13f-6ec8a9fa398b")
+		(property "Sheetname" "ADS_Power_Circuit"
+			(at 50.8 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ads_power_circuit.kicad_sch"
+			(at 50.8 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fsuk-ads-electrical"
+				(path "/d6aff74e-3318-4fd0-8dc7-ec5368c0dfa8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
