@@ -442,7 +442,7 @@
       },
       {
         "netclass": "COIL_PWR_24V",
-        "pattern": "*COIL_24V_PWR*"
+        "pattern": "*COIL_24V_*"
       },
       {
         "netclass": "TRUNK_120A",
@@ -467,6 +467,10 @@
       {
         "netclass": "COIL_PWR",
         "pattern": "*COIL_*"
+      },
+      {
+        "netclass": "SDC_BYPASS",
+        "pattern": "*BYPASS*"
       }
     ]
   },
