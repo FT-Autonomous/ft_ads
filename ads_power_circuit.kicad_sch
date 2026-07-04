@@ -1146,131 +1146,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FSUK_ADS:+12V_TRUNK_SW"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V_TRUNK_SW"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_TRUNK_SW_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_TRUNK_SW_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "12V_TRUNK_SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FSUK_ADS:+24V_BRK_FSD"
 			(power)
 			(pin_numbers
@@ -2752,12 +2627,6 @@
 		(uuid "bca20234-39f9-4a00-a3c2-89572e7f1005")
 	)
 	(junction
-		(at 139.7 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bef41b64-864c-4d72-beee-697c65164ae9")
-	)
-	(junction
 		(at 73.66 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3357,6 +3226,16 @@
 		)
 		(uuid "86f00853-afc8-4226-ab3f-55931f632471")
 	)
+	(label "+12v_TRUNK_SW"
+		(at 132.08 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d5b8846-b849-428e-b1d4-f4d1d340f9bc")
+	)
 	(label "+24V_MOTORS"
 		(at 185.42 88.9 0)
 		(effects
@@ -3461,7 +3340,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SW80"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -4257,72 +4136,6 @@
 			(project "fsuk-ads-electrical"
 				(path "/d6aff74e-3318-4fd0-8dc7-ec5368c0dfa8/b502e227-70b4-4105-b13f-6ec8a9fa398b"
 					(reference "V2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FSUK_ADS:+12V_TRUNK_SW")
-		(at 139.7 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51ead78b-3f0a-4c33-9d78-dda1343fcff3")
-		(property "Reference" "#PWR04"
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_TRUNK_SW"
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 139.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92a73c33-1003-4f62-b1e7-7e196f43e6f5")
-		)
-		(instances
-			(project "fsuk-ads-electrical"
-				(path "/d6aff74e-3318-4fd0-8dc7-ec5368c0dfa8/b502e227-70b4-4105-b13f-6ec8a9fa398b"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5600,7 +5413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CB"
+		(property "Value" "COMPUTE"
 			(at 81.28 82.5499 90)
 			(effects
 				(font
